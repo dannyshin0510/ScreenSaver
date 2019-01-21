@@ -1,0 +1,103 @@
+Danny's Files
+Welcome to the screen saver program instructions.
+This program's purpose is to set a screen saver for the user's computer with the
+user's desired settings such as the speed of the animations, length of execution
+time, and password settings.
+
+MAIN MENU:
+In the main menu, the user will be offered 4 options that can be chosen 
+by pressing either; '1', '2', '3', or '4'.
+Pressing '1' (Set screen saver) will direct the user to answer questions, 
+required to set their desired screensaver.
+
+Pressing '2' (Set password) will direct the user to set a new password that 
+they desire.
+
+Pressing '3' (Instructions) will explain how to use this screensaver program.
+
+Pressing '4' (Exit) will greet off the user and end the program.
+The user may only press either; '1', '2', '3', or '4'. Any other keys are
+errortrapped.
+The description and explanation of each option will now be explained.
+
+SET SCREENSAVER OPTION: 
+In this option, the user will have to answer questions that will set the 
+settings of the screensaver.
+ 
+   Question #1: "Please choose a screen saver:"
+Here, the user will have 5 options that correspond to different screen saver 
+styles. 
+Allowed inputs: '1', '2', '3', '4', or '5'.
+
+   Question #2: Would you like to preview this screen saver?"
+If the user chooses to preview the screen saver, a short preview of the screen 
+saver will be shown. After the preview, the program will return back to 
+question #1, in case the user does not like the screen saver.
+Allowed inputs: 'y' or 'n'.
+
+   Question #3: "Please input the speed of the animations:"
+Here, the user will set the speed of the animation. The larger the integer, the 
+slower the animations will run.
+Allowed inputs: positive integers.
+   Question #4: "Please input the length of execution time in seconds:"
+Here, the user will set how long the screen saver will execute for. Note that 
+the unit are seconds.
+Allowed inputs: positive integers.
+   Question #5: "Would you like to apply your password?"
+Here, the user will decide if they wish to apply a password at the end of the 
+screen saver execution. If the user has not already set a password earlier, the 
+user will require to set a new password.
+Allowed inputs: 'y' or 'n'.
+
+After the user has answered all these questions, the screen saver will launch.
+*Any other inputs other than the "Allowed inputs" are errortrapped.
+
+INSTRUCTIONS OPTION:
+(Here)
+In this option, the user will read about how the program will run, and the 
+acceptable inputs for each user inputs.
+
+
+
+SET PASSWORD OPTION:
+In this option, the user will set a new password that may be applied at the end 
+of the screen saver.
+At first, the user will input a desired password. 
+Then, the user will be asked to input the same password again to confirm the 
+accuracy of the password.
+The password may be consisted of letters, numbers, and/or symbols.
+The set password will be encrypted and saved in a file called, 
+"User Password.txt".
+
+EXIT OPTION:
+In this option, the user will see a farewell message from the program creator
+(Danny Shin).
+Then, with a press of any key, the program will close.
+
+
+
+
+
+
+
+Password inputs after screen saver:
+If the user inputs the incorrect password, a small window will appear, asking if
+the user would like to try again.
+If the user clicks 'yes', the user will be able to input the password again.
+If the user clicks 'no', the user will be lead to the exit option of the
+program, since the user is not authorized to access the program.
+
+However, if the user inputs the correct password, the program will return back
+to the main menu.
+
+At the end of each screen saver:
+The program will return back to the main menu. If the user had applied a
+password, the user will need to input the correct password to return.
+After returning to the main menu, the user may set another screen saver or
+choose another option.
+
+
+
+
+
+
